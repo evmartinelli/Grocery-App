@@ -1,1 +1,1 @@
-class WishlistModel { }
+class WishlistModel {}

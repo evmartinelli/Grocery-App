@@ -1,1 +1,1 @@
-class CustomerSupportChatModel { }
+class CustomerSupportChatModel {}

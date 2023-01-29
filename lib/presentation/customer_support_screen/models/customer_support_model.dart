@@ -1,1 +1,1 @@
-class CustomerSupportModel { }
+class CustomerSupportModel {}

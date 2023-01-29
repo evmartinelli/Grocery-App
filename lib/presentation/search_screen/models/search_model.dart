@@ -1,1 +1,1 @@
-class SearchModel { }
+class SearchModel {}

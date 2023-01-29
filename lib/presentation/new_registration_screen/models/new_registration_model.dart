@@ -1,1 +1,1 @@
-class NewRegistrationModel { }
+class NewRegistrationModel {}

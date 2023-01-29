@@ -1,1 +1,1 @@
-class OrderCompletedModel { }
+class OrderCompletedModel {}

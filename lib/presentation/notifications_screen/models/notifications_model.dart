@@ -1,1 +1,1 @@
-class NotificationsModel { }
+class NotificationsModel {}

@@ -1,1 +1,1 @@
-class SplashPhoneNumberPreregisterdModel { }
+class SplashPhoneNumberPreregisterdModel {}

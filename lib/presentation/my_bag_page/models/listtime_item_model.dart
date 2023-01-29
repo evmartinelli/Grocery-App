@@ -1,1 +1,1 @@
-class ListtimeItemModel { }
+class ListtimeItemModel {}

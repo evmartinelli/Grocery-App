@@ -1,1 +1,1 @@
-class PaymentModel { }
+class PaymentModel {}

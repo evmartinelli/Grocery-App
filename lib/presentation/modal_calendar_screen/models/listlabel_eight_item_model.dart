@@ -1,1 +1,1 @@
-class ListlabelEightItemModel { }
+class ListlabelEightItemModel {}

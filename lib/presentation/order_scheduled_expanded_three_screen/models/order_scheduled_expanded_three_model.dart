@@ -1,1 +1,1 @@
-class OrderScheduledExpandedThreeModel { }
+class OrderScheduledExpandedThreeModel {}

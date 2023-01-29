@@ -1,1 +1,1 @@
-class OrderScheduledExpandedTwoModel { }
+class OrderScheduledExpandedTwoModel {}

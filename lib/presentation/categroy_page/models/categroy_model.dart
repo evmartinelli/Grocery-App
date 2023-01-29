@@ -1,1 +1,1 @@
-class CategroyModel { }
+class CategroyModel {}

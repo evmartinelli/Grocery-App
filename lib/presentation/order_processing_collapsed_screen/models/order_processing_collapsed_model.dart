@@ -1,1 +1,1 @@
-class OrderProcessingCollapsedModel { }
+class OrderProcessingCollapsedModel {}

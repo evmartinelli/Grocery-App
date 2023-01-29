@@ -5,43 +5,40 @@
 ///  at least a special character [@#$%^&+=]
 ///  length of at least 4
 /// no white space allowed
-bool isValidPassword(String? inputString, {bool isRequired = false}) { 
-bool isInputStringValid = false;
+bool isValidPassword(String? inputString, {bool isRequired = false}) {
+  bool isInputStringValid = false;
 
-if ((inputString == null ? true : inputString.isEmpty) && !isRequired) {
+  if ((inputString == null ? true : inputString.isEmpty) && !isRequired) {
+    isInputStringValid = true;
+  }
 
-isInputStringValid = true;
+  if (inputString != null) {
+    const pattern =
+        r'^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{8,}$';
 
+    final regExp = RegExp(pattern);
+
+    isInputStringValid = regExp.hasMatch(inputString);
+  }
+
+  return isInputStringValid;
 }
 
-if (inputString != null) {
+/// Checks if string consist only Alphabet. (No Whitespace)
+bool isText(String? inputString, {bool isRequired = false}) {
+  bool isInputStringValid = false;
 
-const pattern = r'^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{8,}$';
+  if ((inputString == null ? true : inputString.isEmpty) && !isRequired) {
+    isInputStringValid = true;
+  }
 
-final regExp = RegExp(pattern);
+  if (inputString != null) {
+    const pattern = r'^[a-zA-Z]+$';
 
-isInputStringValid = regExp.hasMatch(inputString) ;
+    final regExp = RegExp(pattern);
 
+    isInputStringValid = regExp.hasMatch(inputString);
+  }
+
+  return isInputStringValid;
 }
-
-return isInputStringValid; } /// Checks if string consist only Alphabet. (No Whitespace)
-bool isText(String? inputString, {bool isRequired = false}) { 
-bool isInputStringValid = false;
-
-if ((inputString == null ? true : inputString.isEmpty) && !isRequired) {
-
-isInputStringValid = true;
-
-}
-
-if (inputString != null) {
-
-const pattern = r'^[a-zA-Z]+$';
-
-final regExp = RegExp(pattern);
-
-isInputStringValid = regExp.hasMatch(inputString) ;
-
-}
-
-return isInputStringValid; } 

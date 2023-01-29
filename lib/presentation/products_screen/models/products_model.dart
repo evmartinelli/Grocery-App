@@ -1,1 +1,1 @@
-class ProductsModel { }
+class ProductsModel {}

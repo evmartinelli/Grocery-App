@@ -1,1 +1,1 @@
-class OrderScheduledExpandedOneModel { }
+class OrderScheduledExpandedOneModel {}

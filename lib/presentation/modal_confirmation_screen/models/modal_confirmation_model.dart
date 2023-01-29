@@ -1,1 +1,1 @@
-class ModalConfirmationModel { }
+class ModalConfirmationModel {}

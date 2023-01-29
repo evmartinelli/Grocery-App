@@ -1,1 +1,1 @@
-class ModalRatingModel { }
+class ModalRatingModel {}

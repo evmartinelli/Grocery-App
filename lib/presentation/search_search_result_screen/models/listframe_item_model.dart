@@ -1,1 +1,1 @@
-class ListframeItemModel { }
+class ListframeItemModel {}

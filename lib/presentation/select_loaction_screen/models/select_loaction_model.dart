@@ -1,1 +1,1 @@
-class SelectLoactionModel { }
+class SelectLoactionModel {}

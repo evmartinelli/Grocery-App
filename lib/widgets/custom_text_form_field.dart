@@ -223,12 +223,14 @@ class CustomTextFormField extends StatelessWidget {
 enum TextFormFieldShape {
   RoundedBorder8,
 }
+
 enum TextFormFieldPadding {
   PaddingAll12,
   PaddingAll8,
   PaddingAll15,
   PaddingAll19,
 }
+
 enum TextFormFieldVariant {
   FillLightgreenA700,
   FillYellow900,
@@ -236,6 +238,7 @@ enum TextFormFieldVariant {
   FillRedA200,
   FillBlue700,
 }
+
 enum TextFormFieldFontStyle {
   PoppinsMedium16,
   PoppinsRegular16,

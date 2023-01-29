@@ -1,1 +1,1 @@
-class ListactionshoppingItemModel { }
+class ListactionshoppingItemModel {}

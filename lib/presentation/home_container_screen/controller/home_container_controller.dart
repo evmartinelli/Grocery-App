@@ -1,8 +1,22 @@
-import '/core/app_export.dart';import 'package:grocery_app/presentation/home_container_screen/models/home_container_model.dart';import 'package:grocery_app/widgets/custom_bottom_bar.dart';class HomeContainerController extends GetxController {Rx<HomeContainerModel> homeContainerModelObj = HomeContainerModel().obs;
+import '/core/app_export.dart';
+import 'package:grocery_app/presentation/home_container_screen/models/home_container_model.dart';
+import 'package:grocery_app/widgets/custom_bottom_bar.dart';
 
-Rx<BottomBarEnum> type = BottomBarEnum.Imghome.obs;
+class HomeContainerController extends GetxController {
+  Rx<HomeContainerModel> homeContainerModelObj = HomeContainerModel().obs;
 
-@override void onReady() { super.onReady(); } 
-@override void onClose() { super.onClose(); } 
-@override void onInit() {  } 
- }
+  Rx<BottomBarEnum> type = BottomBarEnum.Imghome.obs;
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
+  }
+
+  @override
+  void onInit() {}
+}

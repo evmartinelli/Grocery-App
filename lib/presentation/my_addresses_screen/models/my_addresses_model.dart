@@ -1,1 +1,1 @@
-class MyAddressesModel { }
+class MyAddressesModel {}

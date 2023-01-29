@@ -1,9 +1,24 @@
-import '/core/app_export.dart';import 'package:grocery_app/presentation/more_wishlist_details_screen/models/more_wishlist_details_model.dart';import 'package:flutter/material.dart';class MoreWishlistDetailsController extends GetxController {TextEditingController buttonsmobileController = TextEditingController();
+import '/core/app_export.dart';
+import 'package:grocery_app/presentation/more_wishlist_details_screen/models/more_wishlist_details_model.dart';
+import 'package:flutter/material.dart';
 
-TextEditingController buttonsmobileOneController = TextEditingController();
+class MoreWishlistDetailsController extends GetxController {
+  TextEditingController buttonsmobileController = TextEditingController();
 
-Rx<MoreWishlistDetailsModel> moreWishlistDetailsModelObj = MoreWishlistDetailsModel().obs;
+  TextEditingController buttonsmobileOneController = TextEditingController();
 
-@override void onReady() { super.onReady(); } 
-@override void onClose() { super.onClose(); buttonsmobileController.dispose(); buttonsmobileOneController.dispose(); } 
- }
+  Rx<MoreWishlistDetailsModel> moreWishlistDetailsModelObj =
+      MoreWishlistDetailsModel().obs;
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
+    buttonsmobileController.dispose();
+    buttonsmobileOneController.dispose();
+  }
+}

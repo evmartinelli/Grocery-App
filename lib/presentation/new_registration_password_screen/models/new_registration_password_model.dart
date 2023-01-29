@@ -1,1 +1,1 @@
-class NewRegistrationPasswordModel { }
+class NewRegistrationPasswordModel {}

@@ -1,1 +1,1 @@
-class SplashPhoneNumberOtpModel { }
+class SplashPhoneNumberOtpModel {}

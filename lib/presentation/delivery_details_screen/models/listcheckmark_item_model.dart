@@ -1,1 +1,1 @@
-class ListcheckmarkItemModel { }
+class ListcheckmarkItemModel {}

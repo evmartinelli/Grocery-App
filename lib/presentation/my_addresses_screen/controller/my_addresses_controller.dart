@@ -1,7 +1,20 @@
-import '/core/app_export.dart';import 'package:grocery_app/presentation/my_addresses_screen/models/my_addresses_model.dart';import 'package:flutter/material.dart';class MyAddressesController extends GetxController {TextEditingController buttonsmobileController = TextEditingController();
+import '/core/app_export.dart';
+import 'package:grocery_app/presentation/my_addresses_screen/models/my_addresses_model.dart';
+import 'package:flutter/material.dart';
 
-Rx<MyAddressesModel> myAddressesModelObj = MyAddressesModel().obs;
+class MyAddressesController extends GetxController {
+  TextEditingController buttonsmobileController = TextEditingController();
 
-@override void onReady() { super.onReady(); } 
-@override void onClose() { super.onClose(); buttonsmobileController.dispose(); } 
- }
+  Rx<MyAddressesModel> myAddressesModelObj = MyAddressesModel().obs;
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
+    buttonsmobileController.dispose();
+  }
+}

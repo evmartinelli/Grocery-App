@@ -1,1 +1,1 @@
-class MoreModel { }
+class MoreModel {}

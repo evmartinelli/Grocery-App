@@ -1,1 +1,1 @@
-class OrdersCategoryModel { }
+class OrdersCategoryModel {}

@@ -49,5 +49,7 @@
     <string>App would like to access your photo gallery</string>
   	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 </dict>
 </plist>

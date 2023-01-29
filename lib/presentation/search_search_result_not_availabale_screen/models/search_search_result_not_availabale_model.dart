@@ -1,1 +1,1 @@
-class SearchSearchResultNotAvailabaleModel { }
+class SearchSearchResultNotAvailabaleModel {}

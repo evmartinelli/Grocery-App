@@ -1,1 +1,1 @@
-class FullPackageDetailsModel { }
+class FullPackageDetailsModel {}

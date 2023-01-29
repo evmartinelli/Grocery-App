@@ -1,1 +1,1 @@
-class ModalFilterModel { }
+class ModalFilterModel {}

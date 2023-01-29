@@ -205,16 +205,19 @@ enum ButtonShape {
   CircleBorder12,
   CustomBorderTL6,
 }
+
 enum ButtonPadding {
   PaddingAll15,
   PaddingAll12,
   PaddingAll8,
   PaddingAll5,
 }
+
 enum ButtonVariant {
   FillTeal40023,
   FillLightgreenA700,
 }
+
 enum ButtonFontStyle {
   PoppinsMedium16,
   PoppinsMedium12,

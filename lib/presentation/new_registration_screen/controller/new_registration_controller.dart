@@ -1,9 +1,23 @@
-import '/core/app_export.dart';import 'package:grocery_app/presentation/new_registration_screen/models/new_registration_model.dart';import 'package:flutter/material.dart';class NewRegistrationController extends GetxController {TextEditingController buttonsmobileController = TextEditingController();
+import '/core/app_export.dart';
+import 'package:grocery_app/presentation/new_registration_screen/models/new_registration_model.dart';
+import 'package:flutter/material.dart';
 
-TextEditingController group7CopyController = TextEditingController();
+class NewRegistrationController extends GetxController {
+  TextEditingController buttonsmobileController = TextEditingController();
 
-Rx<NewRegistrationModel> newRegistrationModelObj = NewRegistrationModel().obs;
+  TextEditingController group7CopyController = TextEditingController();
 
-@override void onReady() { super.onReady(); } 
-@override void onClose() { super.onClose(); buttonsmobileController.dispose(); group7CopyController.dispose(); } 
- }
+  Rx<NewRegistrationModel> newRegistrationModelObj = NewRegistrationModel().obs;
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
+    buttonsmobileController.dispose();
+    group7CopyController.dispose();
+  }
+}

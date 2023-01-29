@@ -1,1 +1,1 @@
-class CustomerSupportChatKeyboardModel { }
+class CustomerSupportChatKeyboardModel {}

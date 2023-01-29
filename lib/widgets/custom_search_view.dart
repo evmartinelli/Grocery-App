@@ -180,13 +180,16 @@ enum SearchViewShape {
   RoundedBorder8,
   CustomBorderTL6,
 }
+
 enum SearchViewPadding {
   PaddingAll14,
   PaddingAll19,
 }
+
 enum SearchViewVariant {
   FillBluegray50,
 }
+
 enum SearchViewFontStyle {
   PoppinsRegular16,
 }

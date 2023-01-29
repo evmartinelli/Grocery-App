@@ -180,13 +180,16 @@ class CustomDropDown extends StatelessWidget {
 enum DropDownShape {
   RoundedBorder8,
 }
+
 enum DropDownPadding {
   PaddingAll17,
   PaddingAll4,
 }
+
 enum DropDownVariant {
   FillBluegray50,
 }
+
 enum DropDownFontStyle {
   PoppinsRegular16,
   PoppinsMedium14,
